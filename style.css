@@ -1,0 +1,136 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px;
+    
+    background: rgb(223, 214, 219);
+    box-shadow: 0 5px 15px rgb(195, 182, 193);
+    height: 50px;
+    width: 91%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+
+}
+#header img{
+    height: 50px;
+    width:60px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+.mid{
+    margin-top: 5px;
+    display: flex;
+    background: rgb(150, 85, 121);
+    justify-content: space-between;
+    height:350px;
+    width: 100%;
+    
+}
+#content h1{
+    font-size: 60px;
+    color: white;
+}
+#imagee img{
+    height:350px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.bottom .one1{
+    width: 280px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(141, 214, 115);
+    border: 1px solid whitesmoke;
+    margin-right: 70px;
+    height: 250px;
+    padding-left: 10px;
+    
+    
+}
+.bottom .one1:hover{
+    box-shadow: 10px 10px 54px rgb(48, 126, 19);
+}
+
+.bottom .one1 img{
+    width: 100%;;
+    margin-bottom: 10px;
+    
+}
+.bottom .items{
+    display: flex;
+}
+.bottom h1{
+    font-size: 50px;
+    color: rgb(113, 12, 71);
+}
+.details{
+    height: 150px;
+    background-color: rgb(130, 125, 125);
+    
+}
+.icon{
+    display: block;
+}
+#product1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+   
+
+}
+#product1 h1{
+    font-size: 50px;
+    color: rgb(98, 64, 130);
+}
+.pro{
+    border: 1px solid black;
+    width: 15%;
+    padding: 12px 15px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px grey;
+    border-radius: 15px;
+    margin: 10px 10px;
+}
+.pro img{
+    width:100%;
+    border-radius: 20px;
+}
+.pro .des{
+    text-align: start;
+    padding: 0pxpx;
+    margin: 0px;
+    
+}
+#pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    margin: 20px;
+    
+    flex-wrap: wrap;
+}
+.banner{
+    
+    background: linear-gradient(rgb(223, 208, 10),pink);
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    
+
+}
+
